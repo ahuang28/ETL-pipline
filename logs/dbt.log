@@ -1,0 +1,31 @@
+[0m18:01:42.574949 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF1C958F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF1B6E2C60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF19C62B40>]}
+
+
+============================== 18:01:42.582167 | de709c38-dcfb-4636-9f90-f1d2fcb281b9 ==============================
+[0m18:01:42.582167 [info ] [MainThread]: Running with dbt=1.9.3
+[0m18:01:42.583168 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Amy\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m18:01:42.609843 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'WindowsPath'.. Dictionary: {'dir': WindowsPath('C:/Users/Amy/.dbt')}
+[0m18:01:42.609843 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m18:01:51.669601 [debug] [MainThread]: Starter project path: C:\Users\Amy\ETL-pipline\env\Lib\site-packages\dbt\include\starter_project
+[0m18:01:51.717435 [info ] [MainThread]: 
+Your new dbt project "data_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:01:51.718443 [info ] [MainThread]: Setting up your profile.
+[0m18:05:41.123223 [info ] [MainThread]: Profile data_pipeline written to C:\Users\Amy\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:05:41.126221 [debug] [MainThread]: Command `dbt init` succeeded at 18:05:41.125225 after 239.01 seconds
+[0m18:05:41.127220 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF1BEFA9F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF1BEFAC00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF1C503170>]}
+[0m18:05:41.127220 [debug] [MainThread]: Flushing usage events
+[0m18:05:43.626242 [debug] [MainThread]: An error was encountered while trying to flush usage events
